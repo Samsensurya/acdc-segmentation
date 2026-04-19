@@ -1,0 +1,8 @@
+database/
+runs/
+__pycache__/
+*.pyc
+*.npy
+*.nii
+*.nii.gz
+.ipynb_checkpoints/
