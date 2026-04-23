@@ -45,7 +45,7 @@ deformed hearts.
 ### Inference
 - Stage-1 ensemble + union bounding box
 - Stage-2 ensemble with **4-fold TTA** (identity, H-flip, V-flip, both)
-- **3D connected-component post-processing** — largest component per class
+- **3D connected-component post-processing** largest component per class
 
 ---
 
