@@ -68,11 +68,10 @@ Surpasses Rank 6 on the ACDC leaderboard.
 ## Repository Structure
 
 ```
-├── acdc_training.py         # Full two-stage training pipeline (Stage 1 + Stage 2)
-├── acdc_preprocessing.py    # Preprocessing pipeline: exports ACDC slices to .npy
-│                            # Run this before acdc_training.py if starting fresh
-├── acdc_inference.py        # Inference script for the test set
-├── acdc_eval.py             # Evaluation: DSC, HD, ASSD, clinical metrics + figures
+├── acdc_preprocessing.py    # Step 1: preprocess ACDC data into .npy slices
+├── acdc_training.py         # Step 2: full two-stage training pipeline (Stage 1 + Stage 2)
+├── acdc_inference.py        # Step 3: run inference on the test set
+├── acdc_eval.py             # Step 4: evaluation — DSC, HD, ASSD, clinical metrics
 └── README.md
 ```
 
